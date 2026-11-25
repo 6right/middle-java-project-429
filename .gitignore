@@ -1,0 +1,17 @@
+.gradle/
+build/
+*.class
+
+.idea/
+*.iml
+out/
+.vscode/
+
+node_modules/
+
+.env
+.env.local
+.env.*.local
+*.log
+/tmp/
+.DS_Store
