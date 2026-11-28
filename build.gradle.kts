@@ -25,7 +25,7 @@ dependencies {
     runtimeOnly("org.postgresql:postgresql:42.7.14")
     testImplementation("org.junit.jupiter:junit-jupiter:5.13.4")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-
+    testImplementation("com.google.code.gson:gson:2.13.2")
 }
 
 tasks.shadowJar {
