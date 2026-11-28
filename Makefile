@@ -1,4 +1,4 @@
-.PHONY: install build start test lint
+.PHONY: install build start test lint openapi
 
 install:
 	npm ci
@@ -14,3 +14,6 @@ test:
 
 lint:
 	./gradlew spotlessCheck
+
+openapi:
+	npx tsp compile contract
